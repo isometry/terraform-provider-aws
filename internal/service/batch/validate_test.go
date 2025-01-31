@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestValidName(t *testing.T) {

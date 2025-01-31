@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	tfservicediscovery "github.com/hashicorp/terraform-provider-aws/internal/service/servicediscovery"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	tfservicediscovery "github.com/isometry/terraform-provider-aws/internal/service/servicediscovery"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestValidNamespaceName(t *testing.T) {

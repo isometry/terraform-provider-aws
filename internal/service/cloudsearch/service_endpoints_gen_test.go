@@ -24,11 +24,11 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/v2/servicemocks"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	terraformsdk "github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/sdkdiag"
-	"github.com/hashicorp/terraform-provider-aws/internal/provider"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/errs"
+	"github.com/isometry/terraform-provider-aws/internal/errs/sdkdiag"
+	"github.com/isometry/terraform-provider-aws/internal/provider"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 type endpointTestCase struct {

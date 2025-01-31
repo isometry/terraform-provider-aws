@@ -16,12 +16,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/statecheck"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
 	"github.com/hashicorp/terraform-plugin-testing/tfjsonpath"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	tfsns "github.com/hashicorp/terraform-provider-aws/internal/service/sns"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/internal/verify"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	tfsns "github.com/isometry/terraform-provider-aws/internal/service/sns"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/internal/verify"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func init() {

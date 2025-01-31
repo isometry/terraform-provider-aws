@@ -12,12 +12,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/hashicorp/terraform-provider-aws/internal/create"
-	"github.com/hashicorp/terraform-provider-aws/internal/framework"
-	"github.com/hashicorp/terraform-provider-aws/internal/framework/flex"
-	fwtypes "github.com/hashicorp/terraform-provider-aws/internal/framework/types"
-	tftags "github.com/hashicorp/terraform-provider-aws/internal/tags"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/create"
+	"github.com/isometry/terraform-provider-aws/internal/framework"
+	"github.com/isometry/terraform-provider-aws/internal/framework/flex"
+	fwtypes "github.com/isometry/terraform-provider-aws/internal/framework/types"
+	tftags "github.com/isometry/terraform-provider-aws/internal/tags"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @FrameworkDataSource("aws_servicecatalogappregistry_attribute_group", name="Attribute Group")

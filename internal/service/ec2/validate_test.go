@@ -6,7 +6,7 @@ package ec2
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestValidSecurityGroupRuleDescription(t *testing.T) {

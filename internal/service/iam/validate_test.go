@@ -6,7 +6,7 @@ package iam
 import (
 	"testing"
 
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestValidRoleProfileName(t *testing.T) {

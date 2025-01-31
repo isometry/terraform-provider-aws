@@ -10,10 +10,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/ephemeral"
 	"github.com/hashicorp/terraform-plugin-framework/ephemeral/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/hashicorp/terraform-provider-aws/internal/create"
-	"github.com/hashicorp/terraform-provider-aws/internal/framework"
-	fwflex "github.com/hashicorp/terraform-provider-aws/internal/framework/flex"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/create"
+	"github.com/isometry/terraform-provider-aws/internal/framework"
+	fwflex "github.com/isometry/terraform-provider-aws/internal/framework/flex"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @EphemeralResource("aws_secretsmanager_random_password", name="Random Password")

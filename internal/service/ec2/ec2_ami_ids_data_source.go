@@ -17,11 +17,11 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/create"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/sdkdiag"
-	"github.com/hashicorp/terraform-provider-aws/internal/flex"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/create"
+	"github.com/isometry/terraform-provider-aws/internal/errs/sdkdiag"
+	"github.com/isometry/terraform-provider-aws/internal/flex"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @SDKDataSource("aws_ami_ids", name="AMI IDs")

@@ -17,12 +17,12 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-testing/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	tfglue "github.com/hashicorp/terraform-provider-aws/internal/service/glue"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/internal/verify"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	tfglue "github.com/isometry/terraform-provider-aws/internal/service/glue"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/internal/verify"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestAccGlueCrawler_dynamoDBTarget(t *testing.T) {

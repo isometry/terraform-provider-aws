@@ -22,12 +22,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/schema/validator"
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/retry"
-	"github.com/hashicorp/terraform-provider-aws/internal/enum"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/fwdiag"
-	"github.com/hashicorp/terraform-provider-aws/internal/framework"
-	fwflex "github.com/hashicorp/terraform-provider-aws/internal/framework/flex"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/enum"
+	"github.com/isometry/terraform-provider-aws/internal/errs/fwdiag"
+	"github.com/isometry/terraform-provider-aws/internal/framework"
+	fwflex "github.com/isometry/terraform-provider-aws/internal/framework/flex"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @FrameworkResource("aws_computeoptimizer_enrollment_status", name="Enrollment Status")

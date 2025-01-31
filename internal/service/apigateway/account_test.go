@@ -19,10 +19,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/statecheck"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
 	"github.com/hashicorp/terraform-plugin-testing/tfjsonpath"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	tfapigateway "github.com/hashicorp/terraform-provider-aws/internal/service/apigateway"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	tfapigateway "github.com/isometry/terraform-provider-aws/internal/service/apigateway"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func testAccAccount_basic(t *testing.T) {

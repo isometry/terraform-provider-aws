@@ -7,8 +7,8 @@ import (
 	"context"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-provider-aws/internal/flex"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/flex"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func resourceResourceConfigV0() *schema.Resource {

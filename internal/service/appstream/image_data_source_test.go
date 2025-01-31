@@ -8,8 +8,8 @@ import (
 
 	awstypes "github.com/aws/aws-sdk-go-v2/service/appstream/types"
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestAccAppStreamImageDataSource_basic(t *testing.T) {

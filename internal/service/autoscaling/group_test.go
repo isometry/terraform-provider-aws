@@ -19,12 +19,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
 	"github.com/hashicorp/terraform-plugin-testing/plancheck"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	tfautoscaling "github.com/hashicorp/terraform-provider-aws/internal/service/autoscaling"
-	tfelasticloadbalancingv2 "github.com/hashicorp/terraform-provider-aws/internal/service/elbv2"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	tfautoscaling "github.com/isometry/terraform-provider-aws/internal/service/autoscaling"
+	tfelasticloadbalancingv2 "github.com/isometry/terraform-provider-aws/internal/service/elbv2"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func init() {
@@ -1766,7 +1766,7 @@ func TestAccAutoScalingGroup_InstanceRefresh_alarmSpecification(t *testing.T) {
 	})
 }
 
-// Reference: https://github.com/hashicorp/terraform-provider-aws/issues/256
+// Reference: https://github.com/isometry/terraform-provider-aws/issues/256
 func TestAccAutoScalingGroup_loadBalancers(t *testing.T) {
 	ctx := acctest.Context(t)
 	var group awstypes.AutoScalingGroup

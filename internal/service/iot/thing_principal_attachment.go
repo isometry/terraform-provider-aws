@@ -14,12 +14,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/retry"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/sdkdiag"
-	tfslices "github.com/hashicorp/terraform-provider-aws/internal/slices"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/errs"
+	"github.com/isometry/terraform-provider-aws/internal/errs/sdkdiag"
+	tfslices "github.com/isometry/terraform-provider-aws/internal/slices"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @SDKResource("aws_iot_thing_principal_attachment", name="Thing Principal Attachment")

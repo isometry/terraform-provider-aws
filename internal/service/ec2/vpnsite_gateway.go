@@ -16,13 +16,13 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/v2/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/sdkdiag"
-	"github.com/hashicorp/terraform-provider-aws/internal/flex"
-	tftags "github.com/hashicorp/terraform-provider-aws/internal/tags"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/internal/verify"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/errs/sdkdiag"
+	"github.com/isometry/terraform-provider-aws/internal/flex"
+	tftags "github.com/isometry/terraform-provider-aws/internal/tags"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/internal/verify"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @SDKResource("aws_vpn_gateway", name="VPN Gateway")

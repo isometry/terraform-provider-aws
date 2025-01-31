@@ -32,7 +32,7 @@ class MyConvertedCode extends TerraformStack {
       codeRepositoryName: "example",
       gitConfig: {
         repositoryUrl:
-          "https://github.com/hashicorp/terraform-provider-aws.git",
+          "https://github.com/isometry/terraform-provider-aws.git",
       },
     });
   }
@@ -79,7 +79,7 @@ class MyConvertedCode extends TerraformStack {
         dependsOn: [awsSecretsmanagerSecretVersionExample],
         gitConfig: {
           repositoryUrl:
-            "https://github.com/hashicorp/terraform-provider-aws.git",
+            "https://github.com/isometry/terraform-provider-aws.git",
           secretArn: example.arn,
         },
       }

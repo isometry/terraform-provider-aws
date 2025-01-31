@@ -21,13 +21,13 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/types"
 	"github.com/hashicorp/terraform-plugin-log/tflog"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/id"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/fwdiag"
-	"github.com/hashicorp/terraform-provider-aws/internal/framework"
-	fwflex "github.com/hashicorp/terraform-provider-aws/internal/framework/flex"
-	tfslices "github.com/hashicorp/terraform-provider-aws/internal/slices"
-	"github.com/hashicorp/terraform-provider-aws/internal/tfresource"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/errs"
+	"github.com/isometry/terraform-provider-aws/internal/errs/fwdiag"
+	"github.com/isometry/terraform-provider-aws/internal/framework"
+	fwflex "github.com/isometry/terraform-provider-aws/internal/framework/flex"
+	tfslices "github.com/isometry/terraform-provider-aws/internal/slices"
+	"github.com/isometry/terraform-provider-aws/internal/tfresource"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @FrameworkResource("aws_route53_cidr_collection", name="CIDR Collection")

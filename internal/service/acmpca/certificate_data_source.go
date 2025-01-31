@@ -8,10 +8,10 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs/sdkdiag"
-	"github.com/hashicorp/terraform-provider-aws/internal/verify"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/errs/sdkdiag"
+	"github.com/isometry/terraform-provider-aws/internal/verify"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @SDKDataSource("aws_acmpca_certificate", name="Certificate")

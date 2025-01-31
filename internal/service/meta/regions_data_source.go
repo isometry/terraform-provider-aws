@@ -12,11 +12,11 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/datasource"
 	"github.com/hashicorp/terraform-plugin-framework/datasource/schema"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/hashicorp/terraform-provider-aws/internal/framework"
-	fwflex "github.com/hashicorp/terraform-provider-aws/internal/framework/flex"
-	tfec2 "github.com/hashicorp/terraform-provider-aws/internal/service/ec2"
-	tfslices "github.com/hashicorp/terraform-provider-aws/internal/slices"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/framework"
+	fwflex "github.com/isometry/terraform-provider-aws/internal/framework/flex"
+	tfec2 "github.com/isometry/terraform-provider-aws/internal/service/ec2"
+	tfslices "github.com/isometry/terraform-provider-aws/internal/slices"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 // @FrameworkDataSource("aws_regions", name="Regions")

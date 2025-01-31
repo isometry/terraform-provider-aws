@@ -8,8 +8,8 @@ import (
 	"slices"
 	"strings"
 
-	tfslices "github.com/hashicorp/terraform-provider-aws/internal/slices"
-	"github.com/hashicorp/terraform-provider-aws/internal/types/stack"
+	tfslices "github.com/isometry/terraform-provider-aws/internal/slices"
+	"github.com/isometry/terraform-provider-aws/internal/types/stack"
 )
 
 // Graph implements a simple dependency graph.

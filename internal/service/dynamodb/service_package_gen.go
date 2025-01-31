@@ -5,9 +5,9 @@ package dynamodb
 import (
 	"context"
 
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/types"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/types"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 type servicePackage struct{}

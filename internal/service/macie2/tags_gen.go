@@ -4,8 +4,8 @@ package macie2
 import (
 	"context"
 
-	tftags "github.com/hashicorp/terraform-provider-aws/internal/tags"
-	"github.com/hashicorp/terraform-provider-aws/internal/types/option"
+	tftags "github.com/isometry/terraform-provider-aws/internal/tags"
+	"github.com/isometry/terraform-provider-aws/internal/types/option"
 )
 
 // map[string]string handling

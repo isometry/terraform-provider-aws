@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	tfsagemaker "github.com/hashicorp/terraform-provider-aws/internal/service/sagemaker"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	tfsagemaker "github.com/isometry/terraform-provider-aws/internal/service/sagemaker"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestValidName(t *testing.T) {

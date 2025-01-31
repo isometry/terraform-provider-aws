@@ -7,8 +7,8 @@ import (
 	"context"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	tftags "github.com/hashicorp/terraform-provider-aws/internal/tags"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	tftags "github.com/isometry/terraform-provider-aws/internal/tags"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func resourceInstanceResourceV0() *schema.Resource {

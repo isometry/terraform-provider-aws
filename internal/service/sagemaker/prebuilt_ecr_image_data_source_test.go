@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-testing/helper/resource"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	tfsagemaker "github.com/hashicorp/terraform-provider-aws/internal/service/sagemaker"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	tfsagemaker "github.com/isometry/terraform-provider-aws/internal/service/sagemaker"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestAccSageMakerPrebuiltECRImageDataSource_basic(t *testing.T) {

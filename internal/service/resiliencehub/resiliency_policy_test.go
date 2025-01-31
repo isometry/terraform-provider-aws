@@ -21,12 +21,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-testing/statecheck"
 	"github.com/hashicorp/terraform-plugin-testing/terraform"
 	"github.com/hashicorp/terraform-plugin-testing/tfjsonpath"
-	"github.com/hashicorp/terraform-provider-aws/internal/acctest"
-	"github.com/hashicorp/terraform-provider-aws/internal/conns"
-	"github.com/hashicorp/terraform-provider-aws/internal/create"
-	"github.com/hashicorp/terraform-provider-aws/internal/errs"
-	tfresiliencehub "github.com/hashicorp/terraform-provider-aws/internal/service/resiliencehub"
-	"github.com/hashicorp/terraform-provider-aws/names"
+	"github.com/isometry/terraform-provider-aws/internal/acctest"
+	"github.com/isometry/terraform-provider-aws/internal/conns"
+	"github.com/isometry/terraform-provider-aws/internal/create"
+	"github.com/isometry/terraform-provider-aws/internal/errs"
+	tfresiliencehub "github.com/isometry/terraform-provider-aws/internal/service/resiliencehub"
+	"github.com/isometry/terraform-provider-aws/names"
 )
 
 func TestAccResilienceHubResiliencyPolicy_basic(t *testing.T) {
